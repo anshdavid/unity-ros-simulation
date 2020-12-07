@@ -19,7 +19,36 @@ Example [Scenes](Assets/Scenes/) `Assets/Scenes/`
 
 [![demo video](docs/images/demo.png)][__DEMO_VID__]
 
+## Directory Structure ##
 
+    .
+    ├── Assets
+    │   ├── Material
+    │   ├── Prefabs
+    │   ├── Robot
+    │   ├── RosSharp
+    │   ├── Scenes
+    │   └── Scripts
+    ├── docs
+    │   └── images
+    ├── Library
+    │   ├── APIUpdater
+    │   ├── Artifacts
+    │   ├── PackageCache
+    │   ├── ScriptAssemblies
+    │   ├── ShaderCache
+    │   ├── StateCache
+    │   ├── TempArtifacts
+    │   └── UIElements
+    ├── Logs
+    ├── obj
+    │   └── Debug
+    ├── Packages
+    ├── ProjectSettings
+    └── Temp
+        └── bin
+
+    <!-- tree . -d -L 2 -->
 ---
 
 [__ROS_SHARP__]: https://github.com/siemens/ros-sharp
