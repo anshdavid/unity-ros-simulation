@@ -615,7 +615,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d18c7da0d9c56a3cb8fc560a556b6c54, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Topic: 
+  Topic: /scan
   reader: {fileID: 384083286}
   FrameId: Unity
 --- !u!1 &336927461
@@ -915,7 +915,7 @@ MonoBehaviour:
   maxAngle: 10
   minAngle: -10
   layers: 10
-  samples: 120
+  samples: 90
   maxRange: 10
   updateRate: 1800
   hitPoints: []

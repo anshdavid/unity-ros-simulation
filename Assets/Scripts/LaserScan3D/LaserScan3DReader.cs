@@ -10,7 +10,7 @@ namespace RosSharp.RosBridgeClient
         public int layers = 16;
         public int samples = 360;
         public float maxRange = 10f;
-        public int updateRate = 1800;
+        public int updateRate = 200;
 
         float vertIncrement;
         float azimutIncrAngle;
